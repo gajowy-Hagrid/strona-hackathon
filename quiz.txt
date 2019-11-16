@@ -1,0 +1,50 @@
+<div class="question">1.Sk¹d na pewno nie pochodzi Œwiêty Miko³aj?</div>
+	<div class="answer">a) Z Bieguna Po³udniowego</div>
+	<div class="answer">b) Z Laponii</div>
+	<div class="answer">c) Z Bieguna Pó³nocnego</div>
+	<div class="answer" data-correct="true">Z Bieguna Po³ódniowego</div>
+<div class="question">2.W jakim mieœcie urodzi³ siê Jezus Chrystus?</div>
+	<div class="answer">a) W Jerozolimie</div>
+	<div class="answer">b) W Betlejem</div>
+	<div class="answer">c) W Galilei</div>
+	<div class="answer" data-correct="true">W Betlejem</div>
+<div class="question">3.Czym jest Bo¿e Narodzenie?</div>
+	<div class="answer">a)Œwiêto upamiêtniaj¹ce narodzenie Jezusa</div>
+	<div class="answer">b) Œwiêto z okazji narodzenia Boga</div>
+	<div class="answer">c) Œwiêto z okazji przybycia Œwiêtego Miko³aja</div>
+	<div class="answer" data-correct="true">Œwiêto upamiêtniaj¹ce narodzenie Jezusa</div>
+<div class="question">4. Kiedy obchodzone jest w Polsce Bo¿e Narodzenie?</div>
+	<div class="answer">a)24 grudnia</div>
+	<div class="answer">b) 25 grudnia</div>
+	<div class="answer">c) 26 grudnia</div>
+	<div class="answer" data-correct="true">25 grudnia</div>
+<div class="question">5. Który symbol nie jest œwi¹teczny?</div>
+	<div class="answer">a) Choinka</div>
+	<div class="answer">b) Baranek</div>
+	<div class="answer">c) Prezent</div>
+	<div class="answer" data-correct="true">baranek</div>
+<div class="question">6. Kiedy rozpoczyna siê wigilia?</div>
+	<div class="answer">a) Gdy jest ju¿ ciemno</div>
+	<div class="answer">b) Gdy na niebie pojawi siê pierwsza gwiazdka</div>
+	<div class="answer">c) O 18</div>
+	<div class="answer" data-correct="true">Gdy na niebie pojawi siê pierwsza gwiazdka</div>
+<div class="question">7. Ile wed³ug tradycji powinno byæ potraw na stole?</div>
+	<div class="answer">a) 7 </div>
+	<div class="answer">b) 12</div>
+	<div class="answer">c) 24</div>
+	<div class="answer" data-correct="true">12</div>
+<div class="question">8. Kiedy zwierzêta przemawiaj¹ ludzkim g³osem?</div>
+	<div class="answer">a) w Wigilie </div>
+	<div class="answer">b) W Bo¿e Narodzenie</div>
+	<div class="answer">c) W Wielkanoc</div>
+	<div class="answer" data-correct="true">W Wigiliê</div>
+<div class="question">9. Który utrwór nie jest kolêd¹?</div>
+	<div class="answer">a) Cicha noc </div>
+	<div class="answer">b) Wœród nocnej ciszy</div>
+	<div class="answer">c) Jest taki dzieñ </div>
+	<div class="answer" data-correct="true"> Jest taki dzieñ </div>
+<div class="question">10. Kto stworzy³ pierwsz¹ szopkê?</div>
+	<div class="answer">a) Jan Pawe³ II </div>
+	<div class="answer">b) Franciszek z Asy¿u</div>
+	<div class="answer">c) Matka Teresa </div>
+	<div class="answer" data-correct="true"> Franciszek z Asy¿u </div>

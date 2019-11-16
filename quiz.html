@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+	<link href="style.css" rel="stylesheet"/>
+	<meta charset="utf-8"/>
+	<title>Quiz</title>
+</head>
+
+<body class="body">
+			
+		<div class="container">
+			<div class="header">
+				<div class="logo_1">W tym roku</div>
+				<div class="logo_2">świąt nie będzie</div>
+				<div class="recipe" onclick="test(1)">Przepisy</div>
+				<div class="gifts" onclick="test(2)">Prezenty</div>
+				<div class="letter" onclick="test(3)">Listy</div>
+				<div class="quiz" onclick="test(4)">Quiz</div>
+				<div class="bob"></div>
+                <div class="grinch"></div>
+            </div>
+            <div class="fade"></div>
+            <div class="title_4">Quiz</div>
+        <div class="quiz_2">
+        <div class="question">1.Skąd na pewno nie pochodzi Święty Mikołaj?</div>
+	        <div class="answer" data-correct="true">a) Z Bieguna Południowego</div>
+	        <div class="answer">b) Z Laponii</div>
+            <div class="answer">c) Z Bieguna Północnego</div>
+            <br><br>
+        <div class="question">2.W jakim mieście urodził się Jezus Chrystus?</div>
+	        <div class="answer">a) W Jerozolimie</div>
+	        <div class="answer" data-correct="true">b) W Betlejem</div>
+            <div class="answer">c) W Galilei</div>
+            <br><br>
+        <div class="question">3.Czym jest Boże Narodzenie?</div>
+	        <div class="answer" data-correct="true">a)Święto upamiętniające narodzenie Jezusa</div>
+	        <div class="answer">b) Święto z okazji narodzenia Boga</div>
+            <div class="answer">c) Święto z okazji przybycia Świętego Mikołaja</div>
+            <br><br>
+        <div class="question">4. Kiedy obchodzone jest w Polsce Boże Narodzenie?</div>
+	        <div class="answer">a)24 grudnia</div>
+	        <div class="answer" data-correct="true">b) 25 grudnia</div>
+            <div class="answer">c) 26 grudnia</div>
+            <br><br>
+        <div class="question">5. Który symbol nie jest świąteczny?</div>
+	        <div class="answer">a) Choinka</div>
+	        <div class="answer" data-correct="true">b) Baranek</div>
+            <div class="answer">c) Prezent</div>
+            <br><br>
+        <div class="question">6. Kiedy rozpoczyna się wigilia?</div>
+	        <div class="answer">a) Gdy jest już ciemno</div>
+	        <div class="answer" data-correct="true">b) Gdy na niebie pojawi się pierwsza gwiazdka</div>
+            <div class="answer">c) O 18</div>
+            <br><br>
+        <div class="question">7. Ile według tradycji powinno być potraw na stole?</div>
+	        <div class="answer">a) 7 </div>
+	        <div class="answer" data-correct="true">b) 12</div>
+            <div class="answer">c) 24</div>
+            <br><br>
+        <div class="question">8. Kiedy zwierzęta przemawiają ludzkim głosem?</div>
+	        <div class="answer" data-correct="true">a) w Wigilie </div>
+	        <div class="answer">b) W Boże Narodzenie</div>
+            <div class="answer">c) W Wielkanoc</div>
+            <br><br>
+        <div class="question">9. Który utrwór nie jest kolędą?</div>
+	        <div class="answer">a) Cicha noc </div>
+	        <div class="answer">b) Wśród nocnej ciszy</div>
+            <div class="answer" data-correct="true">c) Jest taki dzień </div>
+            <br><br>
+        <div class="question">10. Kto stworzył pierwszą szopkę?</div>
+	        <div class="answer">a) Jan Paweł II </div>
+	        <div class="answer" data-correct="true">b) Franciszek z Asyżu</div>
+	        <div class="answer">c) Matka Teresa </div>
+        </div>
+    </div>
+</body>
+
+<script>
+        document.querySelectorAll('.answer').forEach(el => {
+    el.addEventListener('click', function () {
+        if(el.dataset.correct) {
+            alert('dobrze')
+        } else {
+            alert('źle');
+        }
+    })
+});
+</script>
+
+</html>

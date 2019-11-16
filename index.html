@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+	<head>
+		<link href="style.css" rel="stylesheet"/>
+		<meta charset="utf-8"/>
+		<title>W tym roku świąt nie będzie</title>
+	</head>
+
+	<body class="body">
+			
+		<div class="container">
+			<div class="header">
+				<div class="logo_1"><a href="index.html">W tym roku</a></div>
+				<div class="logo_2"><a href="index.html">świąt nie będzie</a></div>
+				<div class="recipe" onclick="test(1)">Przepisy</div>
+				<div class="gifts" onclick="test(2)">Prezenty</div>
+				<div class="letter" onclick="test(3)">Listy</div>
+				<div class="quiz" onclick="test(4)">Quiz</div>
+				<div class="bob"></div>
+				<div class="grinch"></div>
+			</div>
+			<div class="fade"></div>
+			<div class="inserthere"></div>
+			<div class="plot">
+				<div class="title_1">Fabuła flimu</div>
+				<div class="content_1">W Ktosiowie – wiosce położonej w śnieżynce – zbliżają się święta Bożego Narodzenia. Wszyscy mieszkańcy są tym zachwyceni. Jedynie Grinch – tajemniczy, zielony stwór zamieszkujący jaskinię w górach, nie cierpi świąt. Dając się już wcześniej wszystkim we znaki, postanawia zniszczyć mieszkańcom zbliżające się święta. Na ratunek im przychodzi Cindy Lou Who, córka właściciela poczty, która słyszała wiele okropnych legend o niepopularnym Grinchu.</div>
+				<div class="photo_1"></div>
+				<div class="photo_2"></div>
+			</div>
+	
+		</div>
+		
+		<script
+ 	 		src="https://code.jquery.com/jquery-3.4.1.min.js"
+  			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  			crossorigin="anonymous">
+		</script>
+		<script>
+			function test(id){
+				$(".plot").empty()
+				$(".plot").css ("background-color", "#800000" )
+				$(".plot").css ("border", "none")
+				$(".inserthere").empty()
+				switch(id){
+					case 1:
+					$(".inserthere").append('<div class="title_2">Przepisy na wigilię</div> <div class="content_2"> <div class="title_3">PIERNIKI KORZENNE</div> <div class="text_1">Trudno sobie wyobrazić Boże Narodzenie bez pierników. Oto najprostszy przepis, z którym poradzi sobie nawet osoba bez doświadczenia w kuchni. Te pierniczki zawsze wychodzą! <br><br> SKŁADNIKI <br><br> 80 dag mąki 45 dag miodu 15 dag cukru pudru 20 dag masła 2 jajka 2 płaskie łyżeczki sody oczyszczonej 40 g przyprawy do piernika 2 łyżeczki kakao <br><br> SPOSÓB PRZYGOTOWANIA <br><br> Masło rozpuścić z miodem w garnuszku i zostawić do ostygnięcia. Na stolnicy przesiać mąkę, wymieszać z suchymi produktami: soda, cukier, kakao, przyprawa do piernika) Zrobić kopiec, w środku dołek, do którego wbić jajka i powoli mieszając, dolewać masło z miodem Mieszamy całość do czasu, gdy ciasto zrobi się tak gęste, że trzeba zacząć wyrabiać je rękami Po ugnieceniu wałkujemy na cienkie placki i wycinamy pierniczki Układamy na blasze wyłożonej papierem do pieczenia, pieczemy ok. 8 minut w 180 stopniach Po ostudzeniu zdobimy</div> </div> <div class="content_2"> <div class="title_3">PRZEPIS NA BARSZCZ CZERWONY</div> <div class="text_1">SKŁADNIKI <br><br> 4 litry wody 1 litra zakwasu z buraków na barszcz 2 kg buraków 6 dużych kapeluszy suszonych borowików 5-7 marchewek 3 pietruszki 1 mały seler por 3 cebule (raczej średnie niż duże) 3 czubate łyżki cukru lub miodu 4-5 ząbków czosnku sól czarny pieprz 4 listki laurowe kilka kulek ziela angielskiego opcjonalnie: sok z cytryny mleko kokosowe (zdrowsza opcja zamiast śmietany) <br><br> SPOSÓB PRZYGOTOWANIA <br><br> Marchew, pietruszkę i seler obrać i pokroić. Cebulę podsmażyć na patelni. Buraki umyć i pokroić w cienkie plasterki. Wszystkie warzywa włożyć do garnka, dodać buraki, cebule, ziele, listek i grzyby. Dodać przyprawy i gotować przez godzinę. Po tym czasie wyjąc warzywa, do barszczu dolać zakwas, dodać rozgniecione ząbki czosnku, cukier. Skosztować i w razie potrzeby jeszcze doprawić. Barszcz można zabielić mlekiem kokosowym. Podawać z pasztecikami. </div> </div> <div class="content_2"> <div class="title_3">ŚLEDZIE W ŚMIETANIE</div> <div class="text_1">Tradycyjny, lecz wciąż odsłaniany na nowo: śledź, którego przygotowujemy od pokoleń i na wiele okazji. SKŁADNIKI <br><br> ŚLEDZIE <br><br> filety śledziowe – 300 g mleko bez laktozy – 500 ml <br><br> SOS <br><br> papryczka chili – 1 szt. szalotka – 2 szt. kolendra – 2 łyżki mango – 1 szt. śmietana bez laktozy – 300 g kmin rzymski – 1 łyżeczka miód – 1 łyżeczka sok z limonki – 2 łyżeczki orzeszki ziemne – 1 garść sól pieprz <br> SPOSÓB PRZYGOTOWANIA <br> Śledzie zalewamy mlekiem i odstawiamy do lodówki na 12 godzin. Odcedzamy na sitku i kroimy na mniejsze kawałki.Papryczkę chili, szalotki, kolendrę drobno siekamy. Mango kroimy w kostkę. Składniki mieszamy ze śmietaną. Siekamy i dodajemy kmin rzymski, miód, sok z limonki, orzeszki rozdrobnione w moździerzu. Doprawiamy do smaku solą i pieprzem. Śledzie podajemy z sosem. </div> </div>')
+					break;
+
+					case 2:
+					$(".inserthere").append(' <div class="content_3"> <div class="t_gift">Pomysły na prezenty</div> <div class="c_gift">Książka z przepisami <br> Bilet do teatru <br> Stylowy szlafrok <br> Krokomierz <br> Kawiarka <br> Kalendarz na nadchodzący rok <br> Solidny pasek skórzany <br> Karnet na siłownię <br> Przeżycie pełne adrenaliny <br> Kufel do piwa <br> Fotoksiążka <br> Mapa wspólnych podróży <br> Kolacja w modnej restauracji <br> Fotokalendarz <br> Kijki do nordic walking <br> Lokalizator kluczy <br> Klocki <br> </div> </div> <div class="content_4"> <div class="c_2_gift"> Magnetyczne układanki <br> Tekturowe malowanki <br> Zabawki do sznurowania/ nawlekania <br> Zestawy artystyczne <br> Namiot/ tipi <br> Drewniane zabawki (domek dla lalek, parking, kasa, apteczka, skrzynka z narzędziami itp.) <br> Gry <br> Książki <br> Zabawki konstrukcyjne <br> Zestawy małego odkrywcy <br> Puzzle <br> Pojazdy dla trochę starszych (rower/ hulajnoga/ rolki/ łyżwy) <br> Karnet na wymarzone zajęcia <br> Prezent przeżycie <br> Biżuteria <br> Zabawny gadżet <br> Gadżet związany z pasją <br> </div> </div> <div class="photo_3"></div> </div>')
+					break;
+
+					case 3:
+					$(".inserthere").append(' <div class="photo_4">Adres świętego Mikołaja w Laponii: <br> Santa Claus <br> Arctic Circle 96930 <br> Rovaniemi <br> Finlandia </div>') 
+					break;
+					default: 
+					$(".inserthere").append(' <div class="title_4">Quiz</div> <div class="quiz_2"> <div class="question">1.Skąd na pewno nie pochodzi Święty Mikołaj?</div> <div class="answer" data-correct="true">a) Z Bieguna Południowego</div> <div class="answer">b) Z Laponii</div> <div class="answer">c) Z Bieguna Północnego</div> <br><br> <div class="question">2.W jakim mieście urodził się Jezus Chrystus?</div> <div class="answer">a) W Jerozolimie</div> <div class="answer" data-correct="true">b) W Betlejem</div> <div class="answer">c) W Galilei</div> <br><br> <div class="question">3.Czym jest Boże Narodzenie?</div> <div class="answer" data-correct="true">a)Święto upamiętniające narodzenie Jezusa</div> <div class="answer">b) Święto z okazji narodzenia Boga</div> <div class="answer">c) Święto z okazji przybycia Świętego Mikołaja</div> <br><br> <div class="question">4. Kiedy obchodzone jest w Polsce Boże Narodzenie?</div> <div class="answer">a)24 grudnia</div> <div class="answer" data-correct="true">b) 25 grudnia</div> <div class="answer">c) 26 grudnia</div> <br><br> <div class="question">5. Który symbol nie jest świąteczny?</div> <div class="answer">a) Choinka</div> <div class="answer" data-correct="true">b) Baranek</div> <div class="answer">c) Prezent</div> <br><br> <div class="question">6. Kiedy rozpoczyna się wigilia?</div> <div class="answer">a) Gdy jest już ciemno</div> <div class="answer" data-correct="true">b) Gdy na niebie pojawi się pierwsza gwiazdka</div> <div class="answer">c) O 18</div> <br><br> <div class="question">7. Ile według tradycji powinno być potraw na stole?</div> <div class="answer">a) 7 </div> <div class="answer" data-correct="true">b) 12</div> <div class="answer">c) 24</div> <br><br> <div class="question">8. Kiedy zwierzęta przemawiają ludzkim głosem?</div> <div class="answer" data-correct="true">a) w Wigilie </div> <div class="answer">b) W Boże Narodzenie</div> <div class="answer">c) W Wielkanoc</div> <br><br> <div class="question">9. Który utrwór nie jest kolędą?</div> <div class="answer">a) Cicha noc </div> <div class="answer">b) Wśród nocnej ciszy</div> <div class="answer" data-correct="true">c) Jest taki dzień </div> <br><br> <div class="question">10. Kto stworzył pierwszą szopkę?</div> <div class="answer">a) Jan Paweł II </div> <div class="answer" data-correct="true">b) Franciszek z Asyżu</div> <div class="answer">c) Matka Teresa </div> </div> </div>')
+					break;
+				}
+		
+			}
+		</script>
+		<script>
+			document.querySelectorAll('.answer').forEach(el => {
+				console.log(el);
+		el.addEventListener('click', function () {
+			if(el.dataset.correct) {
+				alert('dobrze')
+			} else {
+				alert('źle');
+			}
+		})
+	});
+</script>
+
+	</body>
+
+</html>
+
+
+<!--
+	<div class="question"></div>
+	<div class="answer"></div>
+	<div class="answer"></div>
+	<div class="answer"></div>
+	<div class="answer" data-correct="true"></div>
+
+	<script>
+		document.querySelectorAll('.answer').forEach(el => {
+			el.addEventListener('click', function () {
+				if(el.dataset.correct) {
+					alert('dobrzee')
+				} else {
+					alert('zlee');
+				}
+			})
+		});
+	</script>
+-->
